@@ -13,53 +13,52 @@
 	<form method="get">
 		<div>
 			<label for="#name">Name*</label>
-		    <input type="text" id="#name" required>
+		    <input type="text" id="name" required>
 		</div>
 		<div>
 			<label for="#email">Email*</label>
-		    <input type="email" id="#email" required>
+		    <input type="email" id="email" required>
 		</div>
 		<div>
-			<label for="gender">Gender*</label>
-			<label for="#male">Male</label>
-            <input type="radio" id="#male" name="gender" required>
-        
-            <label for="#female">Female</label>
-            <input type="radio" id="#female" name="gender" required>
-        
-            <label for="#other">Other</label>
-            <input type="radio" id="#other" name="gender" required>
-		</div>
-		<div>
-			<label for="#laptop">Laptop Brands</label>
+			<label>Gender*</label>
 			
-			<select>
-				<option value="" id="#laptop">options</option>
-				<option value="Apple" id="#laptop">Apple</option>
-				<option value="Asus" id="#laptop">Asus</option>
-				<option value="HP" id="#laptop">HP</option>
+            <input type="radio" value="male" name="gender" required>
+        
+            
+            <input type="radio" name="gender" required>
+        
+		</div>
+		<div>
+			<label for="laptop">Laptop Brands</label>
+			
+			<select id="laptop">
+				
+				<option>Apple</option>
+				<option>Asus</option>
+				<option>HP</option>
 			</select>
-		<div>
-			<label for="#age">Age*</label>
-		    <input type="number" id="#age" required>
 		</div>
 		<div>
-			<label for="#dob">DOB*</label>
-		    <input type="date" id="#dob" required>
+			<label for="age">Age*</label>
+		    <input type="number" id="age" required>
 		</div>
 		<div>
-			<label for="#password">Password*</label>
-		    <input type="password" id="#password" required>
+			<label for="dob">DOB*</label>
+		    <input type="date" id="dob" required>
 		</div>
 		<div>
+			<label for="password">Password*</label>
+		    <input type="password" id="password" required>
+		</div>
+		
 			
 			<input type="url" id="portfolio">
-		</div>
-		<div>
+		
+		
 			
-		    <input type="submit" id="submit">
+		   <button type="submit">submit</button>
 			
-		</div>
+		
 		
 		
 	</form>
